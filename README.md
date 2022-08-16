@@ -6,3 +6,5 @@ https://webquizforweb.herokuapp.com/
 2.Redux-toolkit
 <br>
 3.typescript
+<br>
+4.SCSS/SASS
