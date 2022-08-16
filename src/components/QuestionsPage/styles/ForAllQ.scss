@@ -1,0 +1,56 @@
+.ForAllQ{
+    h1{
+        @media(max-width:930px){
+            font-size: 28px;
+        }
+        margin-left: 15px;
+        margin-right: 15px;
+        background-color: rgba(0, 0, 0, 0.66);
+        color: rgb(255, 255, 255);
+        border: 1px solid black;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.455);
+        font-size: 40px;
+    }
+    opacity: 0.8;
+    font-size: 28px;
+    border: 2px solid black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.ForAllQ-options{
+    align-items: center;
+    justify-content: center;
+    @media(max-width:930px){
+        font-size: 19px;
+        min-width: 700px;
+        max-width: 700px;
+    }
+    @media(max-width:830px){
+        min-width: 250px;
+        font-size: 14px;
+    }
+    transition: 0.3s;
+    color:rgb(34, 34, 34);
+    background-color: rgb(180, 166, 166);
+    height: 64px;
+    list-style-type: none;
+    border: 2px solid black;
+    margin-top: 44px;
+    font-size: 24px;
+    margin-left: 244px;
+    margin-right: 244px;
+    min-width: 900px;
+    max-width: 900px;
+}
+
+.ForAllQ-options:hover{
+        cursor: pointer;
+        background-color:rgb(146, 112, 112)
+}
+

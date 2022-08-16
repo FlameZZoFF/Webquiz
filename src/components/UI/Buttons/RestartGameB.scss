@@ -1,0 +1,19 @@
+.Restart{
+    @media(max-width:355px){
+       width: 220px;
+    }
+    transition:0.3s ease;
+   color: rgb(169, 33, 33);
+   border: 0;
+   background-color:rgb(199, 176, 176);
+   font-size: 30px;
+   font-weight: bold;
+   height: 55px;
+   margin-bottom: 44px;
+   width: 290px;
+}
+
+.Restart:hover{
+    background-color: rgb(164, 117, 81);
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.result{
+    .result__rank{
+        font-size: 44px;
+        margin-bottom: 44px;
+    }
+    min-height: 100vh;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    .result__balls{
+        @media(max-width:575px){
+            font-size: 40px;
+        }
+        @media(max-width:355px){
+            font-size: 30px;
+        }
+        font-size: 55px;
+    }
+    .result__label{
+        @media(max-width:575px){
+            font-size: 33px;
+        }
+        font-size: 44px;
+    }
+}

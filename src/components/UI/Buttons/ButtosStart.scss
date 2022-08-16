@@ -1,0 +1,15 @@
+.ButtonStart{
+    transition: 0.3s;
+    margin-top: 44px;
+    width: 180px;
+    height: 44px;
+    background-color: rgba(89, 147, 102, 0.519);
+    border: 1px solid rgb(182, 163, 163);
+    @media(max-width:400px){
+        width: 130px;
+      }
+}
+.ButtonStart:hover{
+    background-color: rgb(177, 140, 140);
+    cursor: pointer;
+}
